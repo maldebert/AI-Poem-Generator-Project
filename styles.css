@@ -1,3 +1,67 @@
+body {
+  background-color: #feeaee;
+  font-family: "Merriweather", serif;
+}
+
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-weight: 800px;
+  font-size: 36px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+main {
+  margin-bottom: 30px;
+}
+
+form {
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+}
+
+.instructions {
+  padding: 16px;
+  border: 1px solid rgba(39, 33, 66, 0.5);
+  width: 80%;
+  font-size: 16px;
+  border-radius: 50px;
+  line-height: 20px;
+  font-family: "Merriweather", serif;
+}
+
+.submit-button {
+  margin-left: 10px;
+  background-color: #ffb7c5;
+  color: #ffffff;
+  border: none;
+  padding: 14px 24px;
+  width: 150px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-family: "Merriweather", serif;
+}
+
+.poem {
+  font-size: 16px;
+  background-color: #ffffff;
+  padding: 20px;
+  line-height: 2;
+  border-left: 3px solid #ffb7c5;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.03);
+}
+
 a {
   text-decoration: none;
   color: #ffb7c5;
@@ -5,5 +69,6 @@ a {
 
 footer {
   text-align: center;
-  font-size: 12px;
+  font-size: 11px;
+  margin-top: 30px;
 }
