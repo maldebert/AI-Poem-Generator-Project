@@ -52,6 +52,12 @@ form {
   border-radius: 50px;
   font-size: 16px;
   font-family: "Merriweather", serif;
+  transition: all 200ms ease-in-out;
+}
+
+.submit-button:hover {
+  background: #ffd1da;
+  cursor: pointer;
 }
 
 .poem {
